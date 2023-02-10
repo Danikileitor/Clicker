@@ -7,11 +7,15 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/lb_Contador"
+        android:id="@+id/lbContador"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:fontFamily="casual"
         android:gravity="center"
         android:text="@string/lb_Contador"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -19,13 +23,14 @@
         app:layout_constraintVertical_bias="0.100000024" />
 
     <Button
-        android:id="@+id/btn_Contador"
+        android:id="@+id/btnContador"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:onClick="incrementar"
         android:text="@string/btn_Contador"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/lb_Contador" />
+        app:layout_constraintTop_toBottomOf="@+id/lbContador" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
