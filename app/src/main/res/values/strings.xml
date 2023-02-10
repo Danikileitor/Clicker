@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Contador</string>
+    <string name="lb_Contador">0</string>
+    <string name="btn_Contador">Incrementar</string>
+</resources>
